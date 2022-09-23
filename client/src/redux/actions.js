@@ -25,7 +25,7 @@ import {
 export const getAllVideogames = () => async(dispatch) => {
  
    
-    const videogames = await axios.get("http://localhost:3001/videogames")
+    const videogames = await axios.get("/videogames")
     return dispatch({
       type: GET_ALL_VIDEOGAMES,
       payload: videogames.data,
@@ -34,7 +34,7 @@ export const getAllVideogames = () => async(dispatch) => {
 
 //DETALLE DE VIDEOJUEGO POR ID
 export const detailVideogame = (id) => async (dispatch) => {
-  const videogame = await axios.get(`http://localhost:3001/videogames/${id}`);
+  const videogame = await axios.get(`/videogames/${id}`);
 
   return dispatch({
     type: GET_DETAIL_VIDEOGAME,
@@ -59,7 +59,7 @@ export const setPage = (page)=> (dispatch)=>{
 export const videogameByName = (name) => async (dispatch) => {
   try {
     const videoName = await axios.get(
-      `http://localhost:3001/videogames?nombre=${name}`
+      `/videogames?nombre=${name}`
     );
     const video = videoName.data;
     return dispatch({
@@ -77,7 +77,7 @@ export const videogameByName = (name) => async (dispatch) => {
 
 //GET GENEROS
 export const getGeneros = () => async (dispatch) => {
-  const generos = await axios.get("http://localhost:3001/genres");
+  const generos = await axios.get("/genres");
 
   return dispatch({
     type: GET_GENEROS,
@@ -114,7 +114,7 @@ export const orderRating = (orden) => (dispatch) => {
 };
 //CREAR VIDEOJUEGO
 export const createVideogame = (datos) => async (dispatch) => {
-  await axios.post("http://localhost:3001/videogames", datos);
+  await axios.post("/videogames", datos);
   return dispatch({
     type: CREATE_VIDEOGAME,
   });
@@ -139,7 +139,7 @@ export const getPlatforms = () => async (dispatch) => {
 
 //ELIMINAR VIDEOJUEGO
 export const deleteVideogame = (id)=> async (dispatch)=>{
-  await axios.delete("http://localhost:3001/videogames/" + id)
+  await axios.delete("/videogames/" + id)
   return dispatch({
     type:DELETE_VIDEOGAME
   })
