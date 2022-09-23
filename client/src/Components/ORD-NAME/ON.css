@@ -1,0 +1,13 @@
+.selectors{
+    justify-content: space-between;
+    margin-right: 5px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    border:none ;
+    padding: 5px;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    box-shadow: 10px 1px 10px rgb(169, 97, 15),
+      -10px -1px 10px rgb(39, 35, 36);
+}

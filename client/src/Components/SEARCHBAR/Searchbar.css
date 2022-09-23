@@ -1,0 +1,28 @@
+* {
+    margin: 1em;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container-searchBar input {
+    padding: 6px;
+    border: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 17px;
+  }
+  
+  .container-searchBar button{
+      padding: 7px;
+      background-color: rgb(2, 2, 2);
+      color: white;
+      font-size: 15px;
+      font-weight: bold;
+      border-radius: 20px;
+      box-shadow: 15px 1px 40px rgb(169, 97, 15),
+      -15px -1px 30px rgb(39, 35, 36);
+  }
+  
+  .container-searchBar button:hover{
+      background-color: rgb(25, 137, 8) ;
+  }

@@ -1,0 +1,32 @@
+
+.tarjeta{
+  margin: 1em;
+ 
+}
+.tarjeta__title{
+  margin-bottom: 10px;
+  color: rgb(201, 199, 199);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: normal;
+}
+.tarjeta__box-rating{
+  color: rgb(201, 199, 199);
+  margin-top: 5px;
+  border: white solid 2px;
+  
+}
+.tarjeta img{
+  border-radius: 5px;
+}
+
+.box-rating__title{
+  text-align: center;
+}
+
+.tarjeta__detail{
+  color: rgb(201, 199, 199);
+  text-decoration: none;
+}
+.tarjeta__detail:hover{
+  color: white;
+}

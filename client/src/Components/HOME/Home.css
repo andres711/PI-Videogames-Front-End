@@ -1,0 +1,183 @@
+
+/*
+BOTONES BANNER
+*/
+.container .btns-banner {
+  display: flex;
+  flex-direction: row;
+  
+}
+.btns-banner .btn {
+  padding: 10px 10px;
+  font-size: 25px;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: rgb(2, 2, 2);
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  border: solid 2px 2px 2px 2px black;
+  box-shadow: 10px 1px 10px rgb(169, 97, 15),
+    -10px -1px 10px rgb(39, 35, 36);
+  transition: ease all 0.5s;
+  text-decoration: none;
+  outline: none;
+}
+/*
+SIDE BAR Y CARDS
+*/
+.container .container-big{
+    max-width: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+/*
+SIDE BAR 
+*/
+.container .side-bar {
+  display: flex;
+  flex-direction: column;
+  position:relative;
+  flex: 0 0 30;
+}
+/*
+CARDS
+*/
+.container .container-body{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 0 70;
+}
+  
+  .container .container-body .tarjetas .paginado-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+ 
+ 
+ 
+ 
+  .container .container-body .btns-body {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .container h1 {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    padding: 10px;
+    font-size: 40px;
+    border: none;
+  }
+ 
+  /* .container .div-Crear h4 {
+    background-color: #050505c9;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 580px;
+    margin-left: 580px;
+    padding: 5px;
+    font-size: 20px;
+    color: azure;
+    text-decoration: none;
+    outline: none;
+    border: solid 1px;
+    border-radius: 30px;
+    box-shadow: 10px 1px 10px rgb(169, 97, 15),
+      -10px -1px 10px rgb(39, 35, 36);
+  } */
+  
+  .container .container-selectors{
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+  }
+  .container .container-selectors .selectors {
+    justify-content: space-between;
+    margin-right: 5px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    border:none ;
+    padding: 5px;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    box-shadow: 10px 1px 10px rgb(169, 97, 15),
+      -10px -1px 10px rgb(39, 35, 36);
+  
+  }
+  
+  .container .container-selectors .selectors:hover {
+    background-color: rgba(110, 64, 195, 0.609);
+    box-shadow: 10px 1px 10px rgb(149, 107, 59),
+      -10px -1px 10px rgb(179, 31, 80);
+  }
+  
+  .tarjetas {
+    display: flex;
+    /* flex-wrap: row; */
+    flex-direction: row;
+    background-color: rgb(255, 149, 0);
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 2px;
+    margin: 20px 20px;
+    box-shadow: 8px 1px 10px rgb(110, 109, 110), -8px -1px 10px rgb(110, 109, 110),
+      -15px -1px 30px rgb(136, 134, 136);
+    transition: ease all 0.5s;
+    text-decoration: none; 
+    
+  }
+  
+  .tarjetas h2{
+    padding: 10px 10px;
+    color: white;
+    font-size: 40px;
+  }
+  .container .btn-crV {
+    padding: 10px 10px;
+    font-size: 25px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(2, 2, 2);
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    border: solid 2px 2px 2px 2px black;
+    box-shadow: 10px 1px 10px rgb(169, 97, 15),
+      -10px -1px 10px rgb(39, 35, 36);
+    transition: ease all 0.5s;
+    text-decoration: none;
+    outline: none;
+  }
+  .container .btn-crV:hover {
+    background-color: rgb(25, 137, 8);
+  }
+  
+  /* .tarjetas h2 {
+    transition: ease all 0.5s;
+    animation: moverderecha 3s ease-in;
+  } */
+  
+  /* @keyframes moverderecha {
+    0% {
+      opacity: 0;
+      transform: translateX(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translate(0);
+    }
+  } */
